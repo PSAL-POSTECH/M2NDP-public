@@ -1,0 +1,54 @@
+#NDP PARAM (nJ/access)
+I_ISSUE_CNT: 0.00346119533 #Total Int Unit Issue Count
+F_ISSUE_CNT: 0.009986173915 #Total FP Unit Issue Count
+SF_ISSUE_CNT: 0.004451292053 #Total SF Unit Issue Count
+ADDR_ISSUE_CNT: 0.00346119533 #Total Addr Unit Issue Count
+LDST_ISSUE_CNT: 0.0002 #Total LDST Unit Issue Count
+SPAD_ISSUE_CNT: 0.0002 #Total SPAD Unit Issue Count
+V_ISSUE_CNT: 0.05378947698 #Total V Unit Issue Count
+V_SF_ISSUE_CNT: 0.03561033642 #Total VSF Unit Issue Count
+V_ADDR_ISSUE_CNT: 0.02768956264 #Total VAddr Unit Issue Count
+V_LDST_ISSUE_CNT: 0.0016 #Total VLDST Unit Issue Count
+V_SPAD_ISSUE_CNT: 0.0016 #Total VSPAD Unit Issue Count
+XREG_RD: 0.00392969 #Total X Register Reads
+XREG_WR: 0.00392969 #Total X Register Writes
+FREG_RD: 0.00392969 #Total F Register Reads
+FREG_WR: 0.00392969 #Total F Register Writes
+VREG_RD: 0.0176164 #Total V REgister Reads
+VREG_WR: 0.0176164 #Total V Register Writes
+ITLB_RH: 0.00475287 #Total I-TLB Hits
+ITLB_RM: 0.00475287 #Total I-TLB Misses
+DTLB_RH: 0.00475287 #Total D-TLB Hits
+DTLB_RM: 0.00475287 #Total D-TLB Misses
+L0I-CACHE_RH: 0.0142264 #Total I-Cache Hits
+L0I-CACHE_RM: 0.0309526 #Total I-Cache Misses
+L1I-CACHE_RH: 0.00481767 #Total I-Cache Hits
+L1I-CACHE_RM: 0.01083399 #Total I-Cache Misses
+SPAD_ACCESS_CNT: 0.112605  #Total SPAD Access Count
+L1D_RH: 0.453712  #Total D-Cache Hits (0.0124809 + 0.0336513 ) * 9.835033
+L1D_RM: 0.279734 #Total D-Cache Hits (0.0124809 + 0.00704 + 0.00601) * 10.954
+L1D_WH: 0.032562  #Total D-Cache Misses (0.0142577 + 0.0336513  ) * 0.679
+L1D_WM: 0.269829  #Total D-Cache Misses (0.0142577 + 0.00100797 ) * 17.67
+L2D_RH: 0.068787  #Total L2 Cache Hits (0.0545557)  * 1.26086
+L2D_RM: 0.004482 #Total L2 Cache Hits (0.00187159 + 0.016911 + 0.017316) * 2.3945
+L2D_WH: 0.065393 #Total L2 Cache Misses (0.065393)  * 4.1249
+L2D_WM: 0.129999  #Total L2 Cache Misses (0.0777666 ) * 1.2270
+MEM_BK: 16 #DRAM Banks
+# MEM_RD: 0.24 #DRAM Reads
+# MEM_WR: 0.26 #DRAM Writes
+# MEM_PRE: 6.39 #DRAM Precharges
+# MEM_ACT: 19.17 #DRAM Activates
+MEM_RD: 1.11 #DRAM Reads
+MEM_WR: 1.11 #DRAM Writes
+MEM_PRE: 1.8 #DRAM Precharges
+MEM_ACT: 0 #DRAM Activates
+LINK_FLIT_SIZE: 64 # 64-bit
+LINK: 0.008 #CXL Link 
+XBAR: 0.086101 #XBar
+# IDLE_CORE: 0.28279166
+STATIC: 0.2721483078
+# STATIC: 0.5442966156
+CONST: 3.7645695 # 16/80 of 32.32522272(V100)
+# CONST: 12.930089088 # 32/80 of 32.32522272(V100)
+# STATIC & CONSTANT Power 
+#TODO: Need to Add

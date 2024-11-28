@@ -1,0 +1,3 @@
+kernel id, kernel mangled name, grid_dimX, grid_dimY, grid_dimZ, #blocks, block_dimX, block_dimY, block_dimZ, #threads, total_insts, total_reported_insts
+kernel-1.trace, _Z9inibufferPfS_i, 149534, 1, 1, 149534, 64, 1, 1, 64, 0,0
+kernel-2.trace, _Z6inicsrPiS_PfS_ii, 149534, 1, 1, 149534, 64, 1, 1, 64, 0,0

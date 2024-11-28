@@ -1,0 +1,40 @@
+#NDP PARAM (nJ/access)
+I_ISSUE_CNT: 0.0002 #Total Int Unit Issue Count
+F_ISSUE_CNT: 0.0018 #Total FP Unit Issue Count
+SF_ISSUE_CNT: 0 #Total SF Unit Issue Count
+ADDR_ISSUE_CNT: 0.0002 #Total Addr Unit Issue Count
+LDST_ISSUE_CNT: 0.0002 #Total LDST Unit Issue Count
+SPAD_ISSUE_CNT: 0.0002 #Total SPAD Unit Issue Count
+V_ISSUE_CNT: 0.0016 #Total V Unit Issue Count
+V_SF_ISSUE_CNT: 0.0016 #Total VSF Unit Issue Count
+V_ADDR_ISSUE_CNT: 0.0016 #Total VAddr Unit Issue Count
+V_LDST_ISSUE_CNT: 0.0016 #Total VLDST Unit Issue Count
+V_SPAD_ISSUE_CNT: 0.0016 #Total VSPAD Unit Issue Count
+SPAD_ACCESS_CNT: 0.050491 #Total SPAD Access Count
+XREG_RD: 0.0382601 #Total X Register Reads
+FREG_RD: 0.145068 #Total F Register Reads
+VREG_RD: 0.102136 #Total V REgister Reads
+XREG_WR: 0.0382601 #Total X Register Writes
+FREG_WR: 0.145068 #Total F Register Writes
+VREG_WR: 0.102136 #Total V Register Writes
+ITLB_H: 0.00475287 #Total I-TLB Hits
+ITLB_M: 0.00475287 #Total I-TLB Misses
+DTLB_H: 0.00475287 #Total D-TLB Hits
+DTLB_M: 0.00475287 #Total D-TLB Misses
+ICACHE_H: 0.0512933 #Total I-Cache Hits
+ICACHE_M: 0.0512933 #Total I-Cache Misses
+DCACHE_H: 0.0868605 #Total D-Cache Hits
+DCACHE_M: 0.0868605 #Total D-Cache Misses
+MEM_BK: 16 #DRAM Banks
+MEM_RD: 2.22 #DRAM Reads
+MEM_WR: 2.22 #DRAM Writes
+MEM_PRE: 1.8 #DRAM Precharges
+MEM_ACT: 0 #DRAM Activates
+LINK_FLIT_SIZE: 64 # 64-bit
+LINK: 0.008 #CXL Link 
+XBAR: 0.00856 #XBar
+IDLE_CORE: 0.28279166
+STATIC: 0.4673374747
+CONST: 6.465044544
+# STATIC & CONSTANT Power 
+#TODO: Need to Add

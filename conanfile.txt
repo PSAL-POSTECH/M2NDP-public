@@ -1,0 +1,10 @@
+[requires]
+zlib/1.2.13
+boost/1.79.0
+robin-hood-hashing/3.11.5
+spdlog/1.11.0
+fp16/cci.20200514
+half/2.2.0
+fmt/9.0.0
+[generators]
+cmake
